@@ -1505,6 +1505,7 @@ func (s *session) NewTxn(ctx context.Context) error {
 	}
 
 	txn, err := s.store.Begin()
+	https://github.com/xiyangxixian/tidb/blob/master/session/session.go
 	if err != nil {
 		return err
 	}
